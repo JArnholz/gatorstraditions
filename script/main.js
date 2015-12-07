@@ -4,6 +4,7 @@ $(document).ready(function(){
     function hideAll() {
        
 		$('.details').hide();
+		$('.detailsSong').hide();
 		
     }
     

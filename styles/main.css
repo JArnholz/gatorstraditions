@@ -10,29 +10,30 @@
 body {
 	background: #243b81;
 	color: #fff;
-	margin: 15px 75px;
+	margin: 15px 50px;
 }
 
 h1, h2 {
 	text-align: center;
 }
 
-section {
+#intro {
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+#head {
+	width: 200px;
+	margin-left: 80px;
+}
+
+.section {
 	border: solid 5px #ef4923;
 	border-radius: 1.5em;
 	margin: 20px 0px;
 }
 
-.sectionDiv {
-	width: 100%;
-	margin: 5px;
-	
-}
 
-
-img {
-	
-}
 
 .sectionIcon {
 	display: block;
@@ -40,27 +41,33 @@ img {
 	
 }
 
-
-.traditionIcon {
-
+.icon {
+	display: block;
+	margin: auto;
+	padding: 20px 0px;
 }
 
-
-.songIcon {
-
+.song {
+	padding: 10px;
 }
 
 .details {
 	padding: 10px 40px;
 }
 
-@media screen and (max-width: 768px) {
-	.sectionDiv {
-	width: 49%;
-	margin: 0px;
+.detailsSong {
+	margin: 10px 5px 10px 10px;
 }
+
+audio {
+	width: 100%;
+}
+
+@media screen and (max-width: 768px) {
 	
 }
+	
+
 
 @media screen and (max-width: 375px) {
 	
@@ -68,15 +75,13 @@ img {
 		margin: 0px;
 	}
 	
-	.sectionDiv {
-		width: 100%;
-		float: none;
+	.section {
+		
+		
 	}
 	
-	
-	
-	.traditionIcon, .songIcon {
-		width: 80%;
+	.sectionIcon, .icon {
+		
 		display: block;
 		margin: auto;
 	}
