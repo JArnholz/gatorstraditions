@@ -12,51 +12,51 @@ $(document).ready(function(){
 	
 	
 	 $('#gatorWalkIcon').hover(function() {
-		 $(this).attr("src", "images/gatorwalk_w.png")
+		 $(this).attr("src", "images/icons/gatorwalk_w.png")
 	 }, function (){
-		$(this).attr("src", "images/gatorwalk.png")
+		$(this).attr("src", "images/icons/gatorwalk.png")
 	});
 	
 	$('#twoBitsIcon').hover(function() {
-		 $(this).attr("src", "images/twobits_w.png")
+		 $(this).attr("src", "images/icons/twobits_w.png")
 	 }, function (){
-		$(this).attr("src", "images/twobits.png")
+		$(this).attr("src", "images/icons/twobits.png")
 	});
 	
 	$('#hctgIcon').hover(function() {
-		 $(this).attr("src", "images/herecomethegators_w.png")
+		 $(this).attr("src", "images/icons/herecomethegators_w.png")
 	 }, function (){
-		$(this).attr("src", "images/herecomethegators.png")
+		$(this).attr("src", "images/icons/herecomethegators.png")
 	});
 	
 	$('#watbIcon').hover(function() {
-		 $(this).attr("src", "images/wearetheboys_w.png")
+		 $(this).attr("src", "images/icons/wearetheboys_w.png")
 	 }, function (){
-		$(this).attr("src", "images/wearetheboys.png")
+		$(this).attr("src", "images/icons/wearetheboys.png")
 	});
 	
 	$('#gate3Icon').hover(function() {
-		 $(this).attr("src", "images/gate3_w.png")
+		 $(this).attr("src", "images/icons/gate3_w.png")
 	 }, function (){
-		$(this).attr("src", "images/gate3.png")
+		$(this).attr("src", "images/icons/gate3.png")
 	});
 	
 	$('#shakerIcon').hover(function() {
-		 $(this).attr("src", "images/shaker_w.png")
+		 $(this).attr("src", "images/icons/shaker_w.png")
 	 }, function (){
-		$(this).attr("src", "images/shaker.png")
+		$(this).attr("src", "images/icons/shaker.png")
 	});
 	
 	$('#forThreeIcon').hover(function() {
-		 $(this).attr("src", "images/forthree_w.png")
+		 $(this).attr("src", "images/icons/forthree_w.png")
 	 }, function (){
-		$(this).attr("src", "images/forthree.png")
+		$(this).attr("src", "images/icons/forthree.png")
 	});
 	
 	$('#alIcon').hover(function() {
-		 $(this).attr("src", "images/al_w.png")
+		 $(this).attr("src", "images/icons/al_w.png")
 	 }, function (){
-		$(this).attr("src", "images/al.png")
+		$(this).attr("src", "images/icons/al.png")
 	});
 	
 	$('.song').hover(function() {
