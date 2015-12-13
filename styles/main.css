@@ -56,6 +56,16 @@ h1, h2 {
 	padding: 10px 40px;
 }
 
+.solo {
+	display: block;
+	margin: auto;
+}
+
+.para {
+	padding: 15px 0px;
+
+}
+
 .detailsSong {
 	margin: 10px 5px 10px 10px;
 }
@@ -95,6 +105,11 @@ audio {
 		
 		display: block;
 		margin: auto;
+	}
+	
+	.detailsM {
+		margin: 0px;
+		padding: 0px;
 	}
 	
 }
