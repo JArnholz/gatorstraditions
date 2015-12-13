@@ -16,6 +16,7 @@ body {
 h1, h2 {
 	text-align: center;
 	color: #ef4923;
+	padding-bottom: 20px;
 }
 
 #intro {
@@ -53,7 +54,17 @@ h1, h2 {
 }
 
 .details {
-	padding: 10px 40px;
+	margin: 15px 0px 25px;
+	padding: 20px 0px 40px;
+	background: #fff;
+	color: #243b81;
+	font-size: 1.5em;
+	border-radius: 1.5em; 
+}
+
+#twobitscheer {
+	text-align: center;
+	font-style: italic;
 }
 
 .solo {
@@ -62,7 +73,7 @@ h1, h2 {
 }
 
 .para {
-	padding: 15px 0px;
+	padding: 20px 50px 10px;
 
 }
 
@@ -73,6 +84,18 @@ h1, h2 {
 audio {
 	width: 100%;
 }
+
+/*
+#empty {
+	background: #fff;
+	margin: 500px 0px 0px;
+}
+*/
+
+footer {
+	
+}
+
 
 @media screen and (max-width: 768px) {
 	
