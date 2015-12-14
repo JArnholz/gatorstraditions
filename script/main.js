@@ -1,18 +1,13 @@
-$(document).ready(function(){
-   
+$(document).ready(function(){  
 
-    function hideAll() {
-       
+    function hideAll() {   
 		$('.details').hide();
 		$('.detailsM').hide();
-		$('.detailsSong').hide();
-		
+		$('.detailsSong').hide();	
     }
     
     hideAll();
 
-	
-	
 	 $('#gatorWalkIcon').hover(function() {
 		 $(this).attr("src", "images/icons/gatorwalk_w.png")
 	 }, function (){
@@ -80,85 +75,63 @@ var windowSize = $(window).width();
 						
 				switch ( $(this).attr("id") ) {
 					
-					case "gatorWalkIcon" :
-						
-						
-						$('#gatorWalkDetailsM').slideToggle();
-						
-						
-						break;
-					case "twoBitsIcon" :
-						
-						$('#twoBitsDetailsM').slideToggle();
-						
-						break;
-					case "hctgIcon" :
-						
-						$('#hctgDetailsM').slideToggle();
-						
-						break;
-						
-					case "watbIcon" :
-						
-						$('#watbDetailsM').slideToggle();
-						
-						break;
-						
-					/* Basketball */	
-						
-					case "gate3Icon" :
-						
-						$('#gate3DetailsM').slideToggle();
-						
-						break;
-						
-					case "shakerIcon" :
-						
-						$('#shakerDetailsM').slideToggle();
-						
-						break;	
-						
-					case "forThreeIcon" :
-						
-						$('#forThreeDetailsM').slideToggle();
-						
-						break;
-						
-					case "alIcon" :
-						
-						$('#alDetailsM').slideToggle();
-						
-						break;	
-						
-					/* Songs */	
+				/* Football */
 					
-					case "fightSongIcon" :
-						
-						$('#fightSongDetails').slideToggle();
-						
+					case "gatorWalkIcon" :
+						$('#gatorWalkDetailsM').slideToggle();				
 						break;
 						
-					case "almaMaterIcon" :
-						
-						$('#almaMaterDetails').slideToggle();
-						
+					case "twoBitsIcon" :				
+						$('#twoBitsDetailsM').slideToggle();				
 						break;
 						
-					case "watbSongIcon" :
+					case "hctgIcon" :						
+						$('#hctgDetailsM').slideToggle();						
+						break;
 						
-						$('#watbSongDetails').slideToggle();
+					case "watbIcon" :						
+						$('#watbDetailsM').slideToggle();						
+						break;
 						
+				/* Basketball */	
+						
+					case "gate3Icon" :						
+						$('#gate3DetailsM').slideToggle();						
+						break;
+						
+					case "shakerIcon" :						
+						$('#shakerDetailsM').slideToggle();						
+						break;	
+						
+					case "forThreeIcon" :						
+						$('#forThreeDetailsM').slideToggle();						
+						break;
+						
+					case "alIcon" :						
+						$('#alDetailsM').slideToggle();						
+						break;	
+						
+				/* Songs */	
+					
+					case "fightSongIcon" :						
+						$('#fightSongDetails').slideToggle();						
+						break;
+						
+					case "almaMaterIcon" :						
+						$('#almaMaterDetails').slideToggle();						
+						break;
+						
+					case "watbSongIcon" :						
+						$('#watbSongDetails').slideToggle();						
 						break;
 						
 					case "callMeAlIcon" :
-
-						$('#callMeAlDetails').slideToggle();
-					
+						$('#callMeAlDetails').slideToggle();					
 						break;
 				}
-		});
-		
+		});	
 	}
+	
 	else {
 			
 			$('.icon').click (function() {
@@ -166,98 +139,64 @@ var windowSize = $(window).width();
 				hideAll();
 						
 				switch ( $(this).attr("id") ) {
+						
+				/* Football */
 					
-					/*
-					case "icon id" :
-						
-						$('#details id').slideToggle();
-						
-						break; */
-						
-					/* Football */
-					
-					case "gatorWalkIcon" :
-						
-						
-						$('#gatorWalkDetails').slideToggle();
-						
-						
-						break;
-					case "twoBitsIcon" :
-						
-						$('#twoBitsDetails').slideToggle();
-						
-						break;
-					case "hctgIcon" :
-						
-						$('#hctgDetails').slideToggle();
-						
+					case "gatorWalkIcon" :					
+						$('#gatorWalkDetails').slideToggle();				
 						break;
 						
-					case "watbIcon" :
-						
-						$('#watbDetails').slideToggle();
-						
+					case "twoBitsIcon" :						
+						$('#twoBitsDetails').slideToggle();						
 						break;
 						
-					/* Basketball */	
-						
-					case "gate3Icon" :
-						
-						$('#gate3Details').slideToggle();
-						
+					case "hctgIcon" :						
+						$('#hctgDetails').slideToggle();					
 						break;
 						
-					case "shakerIcon" :
+					case "watbIcon" :						
+						$('#watbDetails').slideToggle();						
+						break;
 						
-						$('#shakerDetails').slideToggle();
+				/* Basketball */	
 						
+					case "gate3Icon" :						
+						$('#gate3Details').slideToggle();						
+						break;
+						
+					case "shakerIcon" :						
+						$('#shakerDetails').slideToggle();					
 						break;	
 						
-					case "forThreeIcon" :
-						
-						$('#forThreeDetails').slideToggle();
-						
+					case "forThreeIcon" :						
+						$('#forThreeDetails').slideToggle();						
 						break;
 						
-					case "alIcon" :
-						
-						$('#alDetails').slideToggle();
-						
+					case "alIcon" :						
+						$('#alDetails').slideToggle();						
 						break;	
 						
-					/* Songs */	
+				/* Songs */	
 					
-					case "fightSongIcon" :
-						
-						$('#fightSongDetails').slideToggle();
-						
+					case "fightSongIcon" :						
+						$('#fightSongDetails').slideToggle();						
 						break;
 						
-					case "almaMaterIcon" :
-						
-						$('#almaMaterDetails').slideToggle();
-						
+					case "almaMaterIcon" :						
+						$('#almaMaterDetails').slideToggle();	
 						break;
-					case "watbSongIcon" :
 						
-						$('#watbSongDetails').slideToggle();
-						
+					case "watbSongIcon" :						
+						$('#watbSongDetails').slideToggle();						
 						break;
+						
 					case "callMeAlIcon" :
-
-						$('#callMeAlDetails').slideToggle();
-					
+						$('#callMeAlDetails').slideToggle();					
 						break;
 					
 				}
 				
 			});  
 		}
-	
-	
-	 
-	
-	
 });
 	

@@ -1,6 +1,3 @@
-
-/* # is ID, . is class */
-
 * {
     -webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
@@ -14,28 +11,33 @@ body {
 }
 
 h1, h2 {
+	font-family: 'Squada One', serif;
 	text-align: center;
 	color: #ef4923;
 	padding-bottom: 20px;
-	
+	font-size: em;
+}
+
+h1 {
+	font-size: 5em;
+}
+
+h2 {
+	font-size: 2.5em;
 }
 
 #intro {
 	padding-top: 25px;
 	font-size: 1.2em;
-	
 }
 
 #head {
 	width: 200px;
-	
 }
-
 
 nav ul { 
 	list-style: none;
 	text-align: center;
-	
 }
 
 button {
@@ -47,19 +49,15 @@ button a:hover {
 	color: #ef4923;
 }
 
-
 .section {
 	border: solid 5px #ef4923;
 	border-radius: 1.5em;
 	margin: 20px 0px;
 }
 
-
-
 .sectionIcon {
 	display: block;
 	margin: auto;
-	
 }
 
 .icon {
@@ -91,10 +89,8 @@ button a:hover {
 	margin: auto;
 }
 
-
 .para {
 	padding: 20px 50px 10px;
-
 }
 
 .detailsSong {
@@ -115,42 +111,28 @@ footer {
 a { color: #ef4923; }
 a:hover { color: #fff; }
 
-
-
-
-
-
-
-@media screen and (max-width: 768px) {
-	
-}
-	
-
-
 @media screen and (max-width: 375px) {
-	
 	
 	body {
 		margin: 0px;
 	}
 
 	.container {
-		
 		padding: 0px;
 	}
 	
-	#intro {
-		padding: 10px 5px 0px;
+	h1 {
+		font-size: 4em;
+		margin: 0px 10px;
+	}
 	
+	#intro {
+		padding: 10px 5px 0px;	
 	}
 
 	#head {
 		display: block;
 		margin: auto;
-	}
-	
-	button {
-	
 	}
 	
 	nav ul  {
@@ -159,11 +141,9 @@ a:hover { color: #fff; }
 	
 	.section {
 		margin: 10px 0px;
-		
 	}
 	
 	.sectionIcon, .icon {
-		
 		display: block;
 		margin: auto;
 	}
@@ -176,7 +156,6 @@ a:hover { color: #fff; }
 		margin: 5px 0px 5px;
 		padding: 2px;
 		font-size: 1.3em;
-		
 	}
 	
 	.para {
