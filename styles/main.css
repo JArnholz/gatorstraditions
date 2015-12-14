@@ -73,9 +73,9 @@ h1, h2 {
 }
 
 blockquote {
-	display: block;
-	margin: auto;
-	border: solid 2px #ef4923;
+	
+	margin: 20px 100px 20px 0px;
+	border: solid 6px #ef4923;
 }
 
 .para {
