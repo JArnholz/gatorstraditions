@@ -73,7 +73,7 @@ h1, h2 {
 }
 
 blockquote {
-	display: auto;
+	margin: auto;
 	border: solid 2px #ef4923;
 }
 
