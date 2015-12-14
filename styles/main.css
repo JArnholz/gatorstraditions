@@ -72,6 +72,11 @@ h1, h2 {
 	margin: auto;
 }
 
+blockquote {
+	display: auto;
+	border: solid 2px #ef4923;
+}
+
 .para {
 	padding: 20px 50px 10px;
 
